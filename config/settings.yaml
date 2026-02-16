@@ -1,0 +1,12 @@
+# quant-research-lab/config/settings.yaml
+environment: "development"
+
+backtest:
+  initial_capital: 100000.0
+  start_date: "2010-01-01"
+  end_date: "2023-12-31"
+  trading_fee_bps: 5  # 5 basis points
+
+data:
+  raw_dir: "data/raw/"
+  processed_dir: "data/processed/"
